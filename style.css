@@ -11,7 +11,7 @@ h1 {
   color: orangered;
 }
 
-section {
+.flexibale-container {
   display: flex;
   /* margin-bottom: 0px; */
 }
@@ -48,4 +48,38 @@ section {
   background-repeat: no-repeat;
   background-position: right;
   padding-bottom: 80px;
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 10px 10px 100px gray;
+  text-align: justify;
+  border-radius: 5px;
+}
+
+.experience-area {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#web-second {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#web-first {
+  border-left: 10px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
 }
